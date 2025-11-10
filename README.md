@@ -1,7 +1,9 @@
-# Prose-to-Poetry
+# Converting Russian Prose into Poetry: The Impact of Rhyme and Stress Markup
 
 This project focuses on transforming Russian **prose** into **structured poetry**, specifically **quatrains** with target meter (e.g., iamb) and rhyme scheme (e.g., ABAB).  
 It leverages large language models (Qwen) with fine-tuning and markup to control rhythm and rhyme.
+
+Please refer to the following paper for more details: **[Converting Russian Prose into Poetry: The Impact of Rhyme and Stress Markup](https://doi.org/10.1007/978-3-032-07690-8_25)**.
 
 ## Model Comparison
 
@@ -142,6 +144,28 @@ python3 prose-to-poetry/eval.py \
 ```bash
 python3 prose-to-poetry/compute_scores.py
 ```
+
+## Citation
+
+If you use this work in your research, please cite it using the following BibTeX entry:
+
+```bibtex
+@InProceedings{distlermalykhprosetopoetry2026,
+  author="Distler, Marina and Malykh, Valentin",
+  editor="Kryzhanovsky, Boris and Dunin-Barkowski, Witali and Redko, Vladimir and Tiumentsev, Yury and Klimov, Valentin V.",
+  title="Converting Russian Prose into Poetry: The Impact of Rhyme and Stress Markup",
+  booktitle="Advances in Neural Computation, Machine Learning, and Cognitive Research IX",
+  year="2026",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="313--325",
+  isbn="978-3-032-07690-8",
+  doi="10.1007/978-3-032-07690-8_25"
+}
+```
+
+**[DOI 10.1007/978-3-032-07690-8_25](https://doi.org/10.1007/978-3-032-07690-8_25)**.
+
 
 ## License
 
